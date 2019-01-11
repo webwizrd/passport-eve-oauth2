@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/webwizrd/passport-eve-oauth2.svg?branch=master)](https://travis-ci.org/webwizrd/passport-eve-oauth2)
+[![Coverage Status](https://coveralls.io/repos/github/webwizrd/passport-eve-oauth2/badge.svg)](https://coveralls.io/github/webwizrd/passport-eve-oauth2)
 
 # passport-eve-oauth2
 
