@@ -1,0 +1,50 @@
+{
+  "name": "passport-eve-oauth2",
+  "version": "1.0.0",
+  "description": "EVE Online ESI (OAuth 2.0) authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "EVE Online",
+    "eve",
+    "ESI",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Andy https://github.com/webwizrd",
+    "email": "casualtoolcoder@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "bugs": {
+    "url": "http://github.com/"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x",
+    "make-node": "0.3.x",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  }
+}

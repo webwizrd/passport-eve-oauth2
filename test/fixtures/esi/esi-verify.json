@@ -1,0 +1,8 @@
+{ 
+  "CharacterID": "123456789",
+  "CharacterName": "Capsuleer1",
+  "ExpiresOn": "2020-01-10T19:39:05Z",
+  "Scopes": "PublicData",
+  "TokenType": "JWT",
+  "CharacterOwnerHash": "123DEF5KLNOWNABDF"
+}
