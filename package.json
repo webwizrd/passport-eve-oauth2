@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/"
+    "url": "https://github.com/webwizrd/passport-eve-oauth2.git"
   },
   "bugs": {
-    "url": "http://github.com/"
+    "url": "https://github.com/webwizrd/passport-eve-oauth2/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -44,7 +44,7 @@
     "nyc": "^13.1.0"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 4.0"
   },
   "scripts": {
     "test": "nyc --reporter=text-lcov mocha | coveralls",
