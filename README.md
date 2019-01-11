@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/webwizrd/passport-eve-oauth2.svg?branch=master)](https://travis-ci.org/webwizrd/passport-eve-oauth2)
+
 # passport-eve-oauth2
 
 [Passport](http://passportjs.org/) strategy for authenticating with [EVE Online's](http://www.eveonline.com/) ESI
