@@ -63,7 +63,7 @@ application:
 
 ```javascript
 app.get('/auth/eve',
-  passport.authenticate('eveOnline', { scope: ['profile'] }));
+  passport.authenticate('eveOnline'));
 
 app.get('/auth/eve/callback', 
   passport.authenticate('eveOnline', { failureRedirect: '/login' }),
