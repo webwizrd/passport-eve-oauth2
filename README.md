@@ -4,7 +4,7 @@
 # passport-eve-oauth2
 
 [Passport](http://passportjs.org/) strategy for authenticating with [EVE Online's](http://www.eveonline.com/) ESI
-using the OAuth 2.0 API.
+API using OAuth 2.0.
 
 This module lets you authenticate using your EVE Online Login in your Node.js applications.
 By plugging into Passport, EVE Online authentication can be easily and
