@@ -1,6 +1,6 @@
 {
   "name": "passport-eve-oauth2",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "EVE Online ESI (OAuth 2.0) authentication strategy for Passport.",
   "keywords": [
     "passport",
