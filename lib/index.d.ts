@@ -1,4 +1,4 @@
-// Type definitions for passport-eve-oauth2 1.0.1
+// Type definitions for passport-eve-oauth2 1.0.x
 // Project: https://github.com/webwizrd/passport-eve-oauth2#readme
 // Definitions by: Andy https://github.com/webwizrd
 
@@ -25,6 +25,11 @@ declare namespace EsiOAuth2Strategy {
         provider: string;
         _raw: string;
         _json: string;
+    }
+
+    interface ESIStrategyOptions extends Omit<StrategyOptions, 'authorizationURL' | 'tokenURL'>{
+        authorizationURL?: string;
+        tokenURL?: string;
     }
 }
 
